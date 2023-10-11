@@ -28,7 +28,7 @@ header h1 {
     margin: 0 auto;
 }
 form {
-    display: flex;
+    display:inline-flex;
     max-width: 640px;
     width: 100%;
     justify-content: flex-start;
@@ -59,4 +59,17 @@ th {
     border: none;
     cursor: pointer;
     padding: 8px;
+}
+
+.marcado {
+    text-decoration: line-through;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+#itens{
+    margin: 20px;
+
 }
