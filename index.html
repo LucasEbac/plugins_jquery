@@ -10,32 +10,36 @@
     <header>
         <h1>Cadastros</h1>
     </header>
-    <div class="conatainer">
-            <form id="form-cadastros">
-                <input type="text" id="nome-completo" placeholder="Nome completo"/>
-                <input type="number" id="numero-telefone" placeholder="Numero de telefone"/>
-                <input type="email" id="email" placeholder="Seu email"/>
-                <input type="number" id="numero-cpf" placeholder="seu CPF"/>
-                <input type="text" id="endereço-completo" placeholder="Escreva endereço"/>
-                <button type="submit"> Adicionar +</button>
-            </form>
-            <table cellspacing="0">
-                <tbody>
-                    <tr>
-                        <th>Nome</th>
-                        <th>telefone</th>
-                        <th>email</th>
-                        <th>CPF</th>
-                        <th>Endereço</th>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div id="itens">
-            <ul id="lista"></ul>
-        </div>
+        <section>
+            <div class id="container">
+                <h2>Cadastros</h2>
+                <form>
+                <div class="form-cadastros">
+                <label for="nome"> Nome completo:</label>
+                <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-cadastros">
+                    <label for="telefone"> Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    <div class="form-cadastros">
+                        <label for="e-mail"> E-mail:</label>
+                        <input type="email" id="e-mail" name="e-mail">
+                        </div>
+                        <div class="form-cadastros">
+                            <label for="seu-CPF"> Seu CPF:</label>
+                            <input type="text" id="seu-CPF">
+                            </div>
+                            <div class="form-cadastros">
+                                <label for="endereço"> Endereço:</label>
+                                <textarea id="seu-endereço"></textarea>
+                                </div>
+                                <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+            
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="./main.js"></script>
 </body>
 </html>
