@@ -52,16 +52,15 @@ form {
     resize: none;
     height: 120px;
 }
-    button {
-    width:auto;
+    form button {
+    max-width: 100%;
     display: block;
-    background-color: rgba(16, 119, 73, 0.534);
+    background-color: rgba(7, 172, 51, 0.534);
     color: #fff;
     font-size: 24px;
     font-weight: bold;
-    border: none;
+    border:black;
     cursor: pointer;
     padding: 8px 0;
     font-style: italic;
-
 }
