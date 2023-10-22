@@ -42,7 +42,13 @@
                 </form>
             </div>
         </section>
-    <script src="./main.js"></script>
+    <script src="jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#telefone').mask('(00) 0000-0000');
+            $('#cep').mask('00000-000');
+        });
+    </script>
 </body>
 </html>
 
